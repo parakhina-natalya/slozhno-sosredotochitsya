@@ -80,19 +80,6 @@
     inset-block-start: 10px;
     inset-inline-end: 40px;
   }
-
-  .page:not(.theme_light) .rec {
-    display: block;
-    color: var(--accent-text-color, #FF0070);
-    font-size: 18px;
-    font-style: normal;
-    text-transform: uppercase;
-    font-weight: 400;
-    line-height: 1.38;
-    position: absolute;
-    inset-block-start: 10px;
-    inset-inline-end: 40px;
-  }
   
   .page:not(.theme_light) .rec::before {
     content: '';
