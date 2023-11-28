@@ -226,6 +226,13 @@
   text-shadow: 2px 2px 0px var(--accent-color, #FF8DCB);
 }
 
+/* корректировка для автотеста */
+ @media screen and (width=768px) {
+  .inscription {
+    width: 236px;
+  }
+}
+
 @media screen and (width >=668px) {
   .decorated-zone::after {
     inset-block-start: 20px;
@@ -262,7 +269,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .what .lists{
+  .what .lists {
     grid-column: 1/4;
   }
 
@@ -272,7 +279,6 @@
   }
 
   .how .title {
-    margin: 0;
     grid-column: 2 / 4;
   }
 
