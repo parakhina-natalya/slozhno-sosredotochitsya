@@ -33,7 +33,7 @@ picture {
   padding: 0;
 }
 
-button,
+button,     
 a {
   color: currentColor;
   font-family: inherit;
